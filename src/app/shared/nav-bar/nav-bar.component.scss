@@ -78,13 +78,6 @@
       }
     }
 
-    &.sidebar-open {
-      ul {
-        left: 0;
-        opacity: 1;
-      }
-    }
-
     @media (min-width: 992px) {
       .navbar-brand {
         &.flex-grow-1 {
@@ -97,6 +90,13 @@
       }
     }
 
+  }
+
+  &.sidebar-open {
+    ul {
+      left: 0;
+      opacity: 1;
+    }
   }
 
   .navbar-dark {
